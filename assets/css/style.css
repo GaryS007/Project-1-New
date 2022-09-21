@@ -48,29 +48,73 @@ body {
     height: 175px;
     width: 100%;
     border: 1px solid blue;
+
 }
 
-#left-menu {
+#menu-left {
     padding-top: 15px;
     width: 33%;
     float: left;
-    background-color: blue;
+    letter-spacing: 3px;
+    font-size: 140%;
+    font-weight: bold;
+
+
 }
 
 #menu-right {
     padding-top: 15px;
     width: 33%;
     float: right;
-    background-color: green;
+    letter-spacing: 3px;
+    font-size: 140%;
+    font-weight: bold;
+
 }
 
 #logo-container {
     width: 33%;
     margin: 0 auto;
-    background-color: yellow;
 }
+
+.left-menu li {
+    text-decoration: none;
+    list-style-type: none;
+    float: right;
+    display: inline;
+    line-height: 220px;
+    margin-right: 20px;
+
+}
+
+.right-menu li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    line-height: 220px;
+    margin-right: 20px;
+
+}
+
+.left-menu a, .right-menu a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #222831; 
+}
+
+.left-menu .active, .right-menu .active {
+    text-decoration: underline;
+    font-weight: bolder;
+    color: #00ADB5;
+}
+
+.left-menu a:hover, .right-menu a:hover {
+    color: #00ADB5;
+}
+
 
 .logo-image {
     background: url('../images/logo3\ main.png') no-repeat center center;
     height: 150px;
+    line-height: 220px;
 }
