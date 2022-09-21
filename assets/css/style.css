@@ -143,16 +143,16 @@ h1, h2 {
 #about-us h1 {
     text-align: center;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 #about-us {
     height: 700px;
     width: 100%;
-    border: 1px solid red;
 }
 
 #about-left-container {
-    height: 348px;
+    height: 700px;
     width: 40%;
     float: left;
     margin-left: 10%;
@@ -160,9 +160,32 @@ h1, h2 {
 }
 
 #about-right-container {
-    height: 348px;
+    height: 700px;
     width: 40%;
     float: right;
     margin-right: 10%; 
     background-color: red;
+}
+
+.column {
+    height: 700px;
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 20px;
+    background-color: blue;
+}
+
+.column2 {
+    height: 700px;
+    width: 40%;
+    margin-right: 10%;
+    float: right;
+    margin-top: 20px;
+    background-color: red;
+}
+
+.row1:after {
+    display: table;
+    clear: both;
 }
