@@ -41,7 +41,14 @@ body {
     opacity: 0.7;
 }
 
-/* main header menu and logo */
+/* main header, menu, logo and headings */
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #00ADB5;
+}
 
 #header-container {
     height: 175px;
@@ -129,4 +136,33 @@ body {
     height: inherit;
     width: 100%;
     background: url('../images/Hero\ Image\ 1.jpg') no-repeat center center;
+}
+
+/* about us */
+
+#about-us h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+#about-us {
+    height: 700px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+#about-left-container {
+    height: 348px;
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    background-color: blue;
+}
+
+#about-right-container {
+    height: 348px;
+    width: 40%;
+    float: right;
+    margin-right: 10%; 
+    background-color: red;
 }
