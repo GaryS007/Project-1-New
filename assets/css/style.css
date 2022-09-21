@@ -42,7 +42,7 @@ body {
     opacity: 0.7;
 }
 
-/* main header and logo */
+/* main header menu and logo */
 
 #header-container {
     height: 175px;
@@ -50,10 +50,27 @@ body {
     border: 1px solid blue;
 }
 
+#left-menu {
+    padding-top: 15px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#menu-right {
+    padding-top: 15px;
+    width: 33%;
+    float: right;
+    background-color: green;
+}
+
+#logo-container {
+    width: 33%;
+    margin: 0 auto;
+    background-color: yellow;
+}
+
 .logo-image {
     background: url('../images/logo3\ main.png') no-repeat center center;
     height: 150px;
-    width: 100%;
-    padding: 10px;
-    margin: 0 auto;
 }
