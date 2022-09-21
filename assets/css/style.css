@@ -18,7 +18,6 @@ body {
 #social-container {
     height: 45px;
     width: 100%;
-    border: 1px solid red;
 }
 
 #social {
@@ -47,33 +46,29 @@ body {
 #header-container {
     height: 175px;
     width: 100%;
-    border: 1px solid blue;
 
 }
 
 #menu-left {
-    padding-top: 15px;
-    width: 33%;
+    width: 40%;
+    height: 175px;
     float: left;
     letter-spacing: 3px;
     font-size: 140%;
-    font-weight: bold;
-
-
 }
 
 #menu-right {
-    padding-top: 15px;
-    width: 33%;
+    width: 40%;
+    height: 175px;
     float: right;
     letter-spacing: 3px;
     font-size: 140%;
-    font-weight: bold;
 
 }
 
 #logo-container {
-    width: 33%;
+    width: 20%;
+    height: 175px;
     margin: 0 auto;
 }
 
@@ -82,8 +77,9 @@ body {
     list-style-type: none;
     float: right;
     display: inline;
-    line-height: 220px;
-    margin-right: 20px;
+    position: relative;
+    top: 135px;
+    margin-left: 50px;
 
 }
 
@@ -91,8 +87,9 @@ body {
     text-decoration: none;
     list-style-type: none;
     display: inline;
-    line-height: 220px;
-    margin-right: 20px;
+    position: relative;
+    top: 135px;
+    margin-right: 50px;
 
 }
 
@@ -103,7 +100,7 @@ body {
 }
 
 .left-menu .active, .right-menu .active {
-    text-decoration: underline;
+    text-decoration: underline dotted #222831;
     font-weight: bolder;
     color: #00ADB5;
 }
@@ -116,5 +113,20 @@ body {
 .logo-image {
     background: url('../images/logo3\ main.png') no-repeat center center;
     height: 150px;
-    line-height: 220px;
+    position: relative;
+    top: 12px;
+}
+
+/* hero image */
+
+#home-hero-outer {
+    height: 650px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#hero-image {
+    height: inherit;
+    width: 100%;
+    background: url('../images/Hero\ Image\ 1.jpg') no-repeat center center;
 }
