@@ -1,3 +1,59 @@
-h1 {
-    text-transform: uppercase;
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    color: #222831;
+    background-color: white;
+}
+
+/* social header and links */
+
+#social-container {
+    height: 45px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+#social {
+    float: right;
+}
+
+#social li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 22px;
+    margin-top: 10px;
+    vertical-align: middle;
+}
+
+#social i {
+    font-size: 120%;
+    color: #00ADB5;
+}
+
+#social i:hover {
+    opacity: 0.7;
+}
+
+/* main header and logo */
+
+#header-container {
+    height: 175px;
+    width: 100%;
+    border: 1px solid blue;
+}
+
+.logo-image {
+    background: url('../images/logo3\ main.png') no-repeat center center;
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
 }
