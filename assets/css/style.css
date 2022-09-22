@@ -156,6 +156,9 @@ h1, h2 {
     width: 40%;
     float: left;
     margin-left: 10%;
+    text-align: center;
+    position: relative;
+    background-color: red;
 }
 
 #about-right-container {
@@ -169,18 +172,28 @@ h1, h2 {
     margin: 100px 150px;
 }
 
+.about-button-container {
+    position: relative;
+    height: 75px;
+    background-color: blue;
+}
+
 .about-button {
     background-color: #00ADB5;
     border: none;
     border-radius: 10px;
     color: #222831;
     padding: 15px 32px;
-    text-align: center;
     text-decoration: none;
     font-weight: bolder;
     font-size: 140%;
-    margin: auto;
     cursor: pointer;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 img {
