@@ -147,12 +147,12 @@ h1, h2 {
 }
 
 #about-us {
-    height: 700px;
+    height: 1100px;
     width: 100%;
 }
 
 #about-left-container {
-    height: 700px;
+    height: 500px;
     width: 40%;
     float: left;
     margin-left: 10%;
@@ -162,19 +162,21 @@ h1, h2 {
 }
 
 #about-right-container {
-    height: 700px;
+    height: 500px;
     width: 40%;
     float: right;
     margin-right: 10%; 
+    text-align: center;
 }
 
-#about-left-container > p {
-    margin: 100px 150px;
+#about-left-container > p, #about-right-container > p {
+    margin: 50px 100px 100px 100px;
 }
 
 .about-button-container {
     position: relative;
     height: 75px;
+    top: -75px;
     background-color: blue;
 }
 
@@ -199,28 +201,5 @@ h1, h2 {
 img {
     height: 350px;
     width: 525px;
-    margin: 100px 150px;
-}
-
-.column {
-    height: 700px;
-    width: 40%;
-    float: left;
-    margin-left: 10%;
-    margin-top: 20px;
-    background-color: blue;
-}
-
-.column2 {
-    height: 700px;
-    width: 40%;
-    margin-right: 10%;
-    float: right;
-    margin-top: 20px;
-    background-color: red;
-}
-
-.row1:after {
-    display: table;
-    clear: both;
+    margin: 50px 150px;
 }
